@@ -1,0 +1,60 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', 'Segoe UI', sans-serif;
+}
+body {
+    background-color: #f4f9f4; /* พื้นหลังเขียวอ่อนตาสบาย */
+    color: #2d4a2d; /* ตัวอักษรสีเขียวเข้ม */
+    line-height: 1.6;
+}
+/* แถบเมนูนำทาง (Navigation Bar) */
+nav {
+    background-color: #1e4620; /* สีเขียวเข้ม */
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover, nav ul li a.active {
+    color: #a3e635; /* สีเขียวสว่างเมื่อเลือก/ชี้ */
+}
+/* กล่องเนื้อหาหลัก */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-top: 6px solid #2e7d32;
+}
+h1, h2 {
+    color: #1e4620;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 12px;
+}
+/* ส่วนท้ายเว็บ */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #88a088;
+    font-size: 14px;
+}
